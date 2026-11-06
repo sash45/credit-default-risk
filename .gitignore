@@ -226,3 +226,13 @@ data/processed/*
 !data/processed/.gitkeep
 *.duckdb
 *.duckdb.wal
+
+# Trained model files (keep folder structure)
+models/*
+!models/.gitkeep
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.onnx
+*.cbm
